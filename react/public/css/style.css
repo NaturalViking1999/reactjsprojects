@@ -1,0 +1,126 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+  }
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    border-style: ridge;
+    background-color: rgb(209, 182, 182);
+    padding: 10px 10px 10px 10px;
+    width: 1fr;
+}
+
+ .active {
+     color: red;
+ }
+
+ ul {
+      list-style: none; 
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+}
+
+.menu {
+  background-color: aliceblue;
+  border: 1px solid black;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+#choose, #or, .lbl, .crt-btn {
+    padding: 0 10px 0 10px;
+}
+
+.crt-btn {
+    margin-top: 10px;;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer {
+    border: 1px solid black;
+    background: rgb(34, 32, 32);
+}
+
+#pFooter {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+
+.lbl {
+    font-weight: bold;
+}
+
+.site {
+    background-size: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.navbar {
+    padding: .5rem;
+}
+
+.notes {
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    padding: 50px 10px 50px 10px;
+}
+
+.error-404 {
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.notes {
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.again {
+    color: rgb(162, 17, 17);
+    font-weight: bold;
+}
